@@ -14,8 +14,9 @@ github_username: Strangehill/jekyll-netlify-cms
 
 # Build settings
 markdown: kramdown
-
-theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 permalink: /:year/:month/:day/:title/
 
