@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<div class="product">
+
+  <div class="product-header">
+    <div class="product-title">
+      <h2>
+        {{page.name}}
+      </h2>
+    </div>
+    <div class="product-meta">
+      {{page.sku}}
+    </div>
+  </div>
+
+  <article class="product-content">
+    <div class="product-price">
+      $ {{page.price}}
+    </div>
+    {{ content }}
+  </article>
+
+  <img src="{{page.image}}" alt="">
+
+</div>
+
+

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <p>
+  Click on 'Products' on the top right corner of the page to see how shopify can be integrated into the site.
+</p>
+<p>
+<a href="https://drive.google.com/open?id=1Ouo89eHBpiWPeVucHtNlB_tNxz14ucwPV2LCbF3aR1Q">A slideshow of interesting found products</a>
+
+</p>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

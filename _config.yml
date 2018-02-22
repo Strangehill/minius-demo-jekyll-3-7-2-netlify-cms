@@ -1,0 +1,26 @@
+# Site settings
+title: Mini US / MINI US / minius
+email: gente@minius.com.mx
+description: > # this means to ignore newlines until "baseurl:"
+  Un sitio
+  donde encontrarás
+  lo que no sabías
+  que hacía falta
+  en tu vida.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://keen-wiles-aa7309.netlify.com/" # the base hostname & protocol for your site - used for feed.xml
+twitter_username: minius
+github_username: Strangehill/jekyll-netlify-cms
+
+# Build settings
+markdown: kramdown
+
+theme: minima
+
+permalink: /:year/:month/:day/:title/
+
+collections:
+  products:
+    output: true
+
+
